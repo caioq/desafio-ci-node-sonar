@@ -7,7 +7,7 @@ function sub(a, b) {
 }
 
 function div(a, b) {
-  if (b === 0) return null;
+  if (b === 0) return 0;
   return a/b;
 }
 
